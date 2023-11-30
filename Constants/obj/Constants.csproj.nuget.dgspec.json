@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProgrammerProjects\\SoftUni\\WebAdvanced\\25.10.2023 - HouseRentingProject\\WebAdvanced-HouseRentingSystem\\Constants\\Constants.csproj": {}
+    "D:\\ProgrammerProjects\\SoftUni\\WebAdvanced\\30.11.2023 - HouseReningProject\\WebAdvanced-HouseRentingSystem\\Constants\\Constants.csproj": {}
   },
   "projects": {
-    "D:\\ProgrammerProjects\\SoftUni\\WebAdvanced\\25.10.2023 - HouseRentingProject\\WebAdvanced-HouseRentingSystem\\Constants\\Constants.csproj": {
+    "D:\\ProgrammerProjects\\SoftUni\\WebAdvanced\\30.11.2023 - HouseReningProject\\WebAdvanced-HouseRentingSystem\\Constants\\Constants.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProgrammerProjects\\SoftUni\\WebAdvanced\\25.10.2023 - HouseRentingProject\\WebAdvanced-HouseRentingSystem\\Constants\\Constants.csproj",
+        "projectUniqueName": "D:\\ProgrammerProjects\\SoftUni\\WebAdvanced\\30.11.2023 - HouseReningProject\\WebAdvanced-HouseRentingSystem\\Constants\\Constants.csproj",
         "projectName": "Constants",
-        "projectPath": "D:\\ProgrammerProjects\\SoftUni\\WebAdvanced\\25.10.2023 - HouseRentingProject\\WebAdvanced-HouseRentingSystem\\Constants\\Constants.csproj",
+        "projectPath": "D:\\ProgrammerProjects\\SoftUni\\WebAdvanced\\30.11.2023 - HouseReningProject\\WebAdvanced-HouseRentingSystem\\Constants\\Constants.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "D:\\ProgrammerProjects\\SoftUni\\WebAdvanced\\25.10.2023 - HouseRentingProject\\WebAdvanced-HouseRentingSystem\\Constants\\obj\\",
+        "outputPath": "D:\\ProgrammerProjects\\SoftUni\\WebAdvanced\\30.11.2023 - HouseReningProject\\WebAdvanced-HouseRentingSystem\\Constants\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

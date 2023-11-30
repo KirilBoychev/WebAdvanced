@@ -8,69 +8,69 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = HouseRentingSystem
 build_property.RootNamespace = HouseRentingSystem
-build_property.ProjectDir = D:\ProgrammerProjects\SoftUni\WebAdvanced\25.10.2023 - HouseRentingProject\WebAdvanced-HouseRentingSystem\HouseRentingSystem\
+build_property.ProjectDir = D:\ProgrammerProjects\SoftUni\WebAdvanced\30.11.2023 - HouseReningProject\WebAdvanced-HouseRentingSystem\HouseRentingSystem\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\ProgrammerProjects\SoftUni\WebAdvanced\25.10.2023 - HouseRentingProject\WebAdvanced-HouseRentingSystem\HouseRentingSystem
+build_property.MSBuildProjectDirectory = D:\ProgrammerProjects\SoftUni\WebAdvanced\30.11.2023 - HouseReningProject\WebAdvanced-HouseRentingSystem\HouseRentingSystem
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/ProgrammerProjects/SoftUni/WebAdvanced/25.10.2023 - HouseRentingProject/WebAdvanced-HouseRentingSystem/HouseRentingSystem/Areas/Identity/Pages/_ViewStart.cshtml]
+[D:/ProgrammerProjects/SoftUni/WebAdvanced/30.11.2023 - HouseReningProject/WebAdvanced-HouseRentingSystem/HouseRentingSystem/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProgrammerProjects/SoftUni/WebAdvanced/25.10.2023 - HouseRentingProject/WebAdvanced-HouseRentingSystem/HouseRentingSystem/Views/Agent/Become.cshtml]
+[D:/ProgrammerProjects/SoftUni/WebAdvanced/30.11.2023 - HouseReningProject/WebAdvanced-HouseRentingSystem/HouseRentingSystem/Views/Agent/Become.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWdlbnRcQmVjb21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProgrammerProjects/SoftUni/WebAdvanced/25.10.2023 - HouseRentingProject/WebAdvanced-HouseRentingSystem/HouseRentingSystem/Views/Home/Index.cshtml]
+[D:/ProgrammerProjects/SoftUni/WebAdvanced/30.11.2023 - HouseReningProject/WebAdvanced-HouseRentingSystem/HouseRentingSystem/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProgrammerProjects/SoftUni/WebAdvanced/25.10.2023 - HouseRentingProject/WebAdvanced-HouseRentingSystem/HouseRentingSystem/Views/Houses/Add.cshtml]
+[D:/ProgrammerProjects/SoftUni/WebAdvanced/30.11.2023 - HouseReningProject/WebAdvanced-HouseRentingSystem/HouseRentingSystem/Views/Houses/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG91c2VzXEFkZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProgrammerProjects/SoftUni/WebAdvanced/25.10.2023 - HouseRentingProject/WebAdvanced-HouseRentingSystem/HouseRentingSystem/Views/Houses/All.cshtml]
+[D:/ProgrammerProjects/SoftUni/WebAdvanced/30.11.2023 - HouseReningProject/WebAdvanced-HouseRentingSystem/HouseRentingSystem/Views/Houses/All.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG91c2VzXEFsbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProgrammerProjects/SoftUni/WebAdvanced/25.10.2023 - HouseRentingProject/WebAdvanced-HouseRentingSystem/HouseRentingSystem/Views/Houses/Delete.cshtml]
+[D:/ProgrammerProjects/SoftUni/WebAdvanced/30.11.2023 - HouseReningProject/WebAdvanced-HouseRentingSystem/HouseRentingSystem/Views/Houses/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG91c2VzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProgrammerProjects/SoftUni/WebAdvanced/25.10.2023 - HouseRentingProject/WebAdvanced-HouseRentingSystem/HouseRentingSystem/Views/Houses/Details.cshtml]
+[D:/ProgrammerProjects/SoftUni/WebAdvanced/30.11.2023 - HouseReningProject/WebAdvanced-HouseRentingSystem/HouseRentingSystem/Views/Houses/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG91c2VzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProgrammerProjects/SoftUni/WebAdvanced/25.10.2023 - HouseRentingProject/WebAdvanced-HouseRentingSystem/HouseRentingSystem/Views/Houses/Edit.cshtml]
+[D:/ProgrammerProjects/SoftUni/WebAdvanced/30.11.2023 - HouseReningProject/WebAdvanced-HouseRentingSystem/HouseRentingSystem/Views/Houses/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG91c2VzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProgrammerProjects/SoftUni/WebAdvanced/25.10.2023 - HouseRentingProject/WebAdvanced-HouseRentingSystem/HouseRentingSystem/Views/Houses/Mine.cshtml]
+[D:/ProgrammerProjects/SoftUni/WebAdvanced/30.11.2023 - HouseReningProject/WebAdvanced-HouseRentingSystem/HouseRentingSystem/Views/Houses/Mine.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG91c2VzXE1pbmUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProgrammerProjects/SoftUni/WebAdvanced/25.10.2023 - HouseRentingProject/WebAdvanced-HouseRentingSystem/HouseRentingSystem/Views/Shared/Error.cshtml]
+[D:/ProgrammerProjects/SoftUni/WebAdvanced/30.11.2023 - HouseReningProject/WebAdvanced-HouseRentingSystem/HouseRentingSystem/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProgrammerProjects/SoftUni/WebAdvanced/25.10.2023 - HouseRentingProject/WebAdvanced-HouseRentingSystem/HouseRentingSystem/Views/Shared/_LoginPartial.cshtml]
+[D:/ProgrammerProjects/SoftUni/WebAdvanced/30.11.2023 - HouseReningProject/WebAdvanced-HouseRentingSystem/HouseRentingSystem/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProgrammerProjects/SoftUni/WebAdvanced/25.10.2023 - HouseRentingProject/WebAdvanced-HouseRentingSystem/HouseRentingSystem/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/ProgrammerProjects/SoftUni/WebAdvanced/30.11.2023 - HouseReningProject/WebAdvanced-HouseRentingSystem/HouseRentingSystem/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProgrammerProjects/SoftUni/WebAdvanced/25.10.2023 - HouseRentingProject/WebAdvanced-HouseRentingSystem/HouseRentingSystem/Views/_ViewImports.cshtml]
+[D:/ProgrammerProjects/SoftUni/WebAdvanced/30.11.2023 - HouseReningProject/WebAdvanced-HouseRentingSystem/HouseRentingSystem/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProgrammerProjects/SoftUni/WebAdvanced/25.10.2023 - HouseRentingProject/WebAdvanced-HouseRentingSystem/HouseRentingSystem/Views/_ViewStart.cshtml]
+[D:/ProgrammerProjects/SoftUni/WebAdvanced/30.11.2023 - HouseReningProject/WebAdvanced-HouseRentingSystem/HouseRentingSystem/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ProgrammerProjects/SoftUni/WebAdvanced/25.10.2023 - HouseRentingProject/WebAdvanced-HouseRentingSystem/HouseRentingSystem/Views/Shared/_Layout.cshtml]
+[D:/ProgrammerProjects/SoftUni/WebAdvanced/30.11.2023 - HouseReningProject/WebAdvanced-HouseRentingSystem/HouseRentingSystem/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-rajcmqn5q3

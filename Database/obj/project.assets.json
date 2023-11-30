@@ -1942,11 +1942,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ProgrammerProjects\\SoftUni\\WebAdvanced\\25.10.2023 - HouseRentingProject\\WebAdvanced-HouseRentingSystem\\Database\\Database.csproj",
+      "projectUniqueName": "D:\\ProgrammerProjects\\SoftUni\\WebAdvanced\\30.11.2023 - HouseReningProject\\WebAdvanced-HouseRentingSystem\\Database\\Database.csproj",
       "projectName": "Database",
-      "projectPath": "D:\\ProgrammerProjects\\SoftUni\\WebAdvanced\\25.10.2023 - HouseRentingProject\\WebAdvanced-HouseRentingSystem\\Database\\Database.csproj",
+      "projectPath": "D:\\ProgrammerProjects\\SoftUni\\WebAdvanced\\30.11.2023 - HouseReningProject\\WebAdvanced-HouseRentingSystem\\Database\\Database.csproj",
       "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "D:\\ProgrammerProjects\\SoftUni\\WebAdvanced\\25.10.2023 - HouseRentingProject\\WebAdvanced-HouseRentingSystem\\Database\\obj\\",
+      "outputPath": "D:\\ProgrammerProjects\\SoftUni\\WebAdvanced\\30.11.2023 - HouseReningProject\\WebAdvanced-HouseRentingSystem\\Database\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1967,8 +1967,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\ProgrammerProjects\\SoftUni\\WebAdvanced\\25.10.2023 - HouseRentingProject\\WebAdvanced-HouseRentingSystem\\Constants\\Constants.csproj": {
-              "projectPath": "D:\\ProgrammerProjects\\SoftUni\\WebAdvanced\\25.10.2023 - HouseRentingProject\\WebAdvanced-HouseRentingSystem\\Constants\\Constants.csproj"
+            "D:\\ProgrammerProjects\\SoftUni\\WebAdvanced\\30.11.2023 - HouseReningProject\\WebAdvanced-HouseRentingSystem\\Constants\\Constants.csproj": {
+              "projectPath": "D:\\ProgrammerProjects\\SoftUni\\WebAdvanced\\30.11.2023 - HouseReningProject\\WebAdvanced-HouseRentingSystem\\Constants\\Constants.csproj"
             }
           }
         }

@@ -27,13 +27,13 @@ namespace HouseRentingSystem.Services.Agent
         public async Task<bool> ExistById(Guid userId)
         {
             return await _data
-                .Agents
-                .AnyAsync(a => a.UserId == userId);
+                        .Agents
+                        .AnyAsync(a => a.UserId == userId);
         }
 
         public async Task<bool> UserHasRent(Guid userId)
         {
-            return _data.Agents.Any(a => a.UserId == userId);
+            return await _data.Houses.AnyAsync(h => h.RenterId == userId);
         }
 
         public async Task<bool> UserWithPhoneNumberExists(string phoneNumber)

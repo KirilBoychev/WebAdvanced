@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "s+jhmgOa8l6jzZHv3z2zlRZXnfzZSgSLlqO2fKt/6aEqhj+Io9hDjCwLeA8budJbvvANUGtwGAR3aLo+G/bRTQ==",
+  "dgSpecHash": "BAqAl7Wu9GnGBD8DBdHNxHsPqCDatFXMRIm8HLmlJt4Kb/xi4FT4HvRvkOJb2tWbNQSKo34miEpuPxJGp7+zIQ==",
   "success": true,
-  "projectFilePath": "D:\\ProgrammerProjects\\SoftUni\\WebAdvanced\\25.10.2023 - HouseRentingProject\\WebAdvanced-HouseRentingSystem\\HouseRentingSystem\\HouseRentingSystem.csproj",
+  "projectFilePath": "D:\\ProgrammerProjects\\SoftUni\\WebAdvanced\\30.11.2023 - HouseReningProject\\WebAdvanced-HouseRentingSystem\\HouseRentingSystem\\HouseRentingSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asus\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.5\\microsoft.aspnetcore.cryptography.internal.6.0.5.nupkg.sha512",

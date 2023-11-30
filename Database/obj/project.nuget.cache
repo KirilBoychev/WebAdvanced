@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ljO1B1nQo5GpBkOQCVgYqwCRZhBThQSZJrRB2Acl3dQ145hwD8iMar7K2PizHRFsUmz38KiQeJxPj7pF0zYiqA==",
+  "dgSpecHash": "Mt9WeelveRnl9eIhrGqzDfLDX8+2sVQ2sr1BPBUZA6lutvXdcZAH9pPk8I6kPLBI0R3o0jOMhXB3N5n7WE+i5Q==",
   "success": true,
-  "projectFilePath": "D:\\ProgrammerProjects\\SoftUni\\WebAdvanced\\25.10.2023 - HouseRentingProject\\WebAdvanced-HouseRentingSystem\\Database\\Database.csproj",
+  "projectFilePath": "D:\\ProgrammerProjects\\SoftUni\\WebAdvanced\\30.11.2023 - HouseReningProject\\WebAdvanced-HouseRentingSystem\\Database\\Database.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.5\\microsoft.aspnetcore.cryptography.internal.6.0.5.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.5\\microsoft.aspnetcore.cryptography.keyderivation.6.0.5.nupkg.sha512",

@@ -1,4 +1,7 @@
-﻿using HouseRentingSystem.Models.Houses;
+﻿using HouseRentingSystem.Contracts.Agent;
+using HouseRentingSystem.Contracts.House;
+using HouseRentingSystem.Infrastructure;
+using HouseRentingSystem.Models.Houses;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -6,6 +9,14 @@ namespace HouseRentingSystem.Controllers
 {
     public class HousesController : Controller
     {
+        private readonly IHouseService _houses;
+        private readonly IAgentService _agents;
+        public HousesController(IHouseService houses, IAgentService agents)
+        {
+            this._houses = houses;
+            this._agents = agents;
+        }
+
         [AllowAnonymous]
         public async Task<IActionResult> All()
         {
@@ -26,7 +37,14 @@ namespace HouseRentingSystem.Controllers
         [Authorize]
         public async Task<IActionResult> Add()
         {
-            return View();
+            if (await _agents.ExistById(User.Id()) == false)
+            {
+                return RedirectToAction(nameof(AgentController.Become), "Agent");
+            }
+            return View(new HouseFormModel
+            {
+                Categories = await _houses.AllCategories()
+            });
         }
 
         [HttpPost]
