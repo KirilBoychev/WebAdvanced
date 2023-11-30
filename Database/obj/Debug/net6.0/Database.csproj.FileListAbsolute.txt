@@ -1,0 +1,15 @@
+D:\ProgrammerProjects\SoftUni\WebAdvanced\25.10.2023 - HouseRentingProject\WebAdvanced-HouseRentingSystem\Database\bin\Debug\net6.0\Database.deps.json
+D:\ProgrammerProjects\SoftUni\WebAdvanced\25.10.2023 - HouseRentingProject\WebAdvanced-HouseRentingSystem\Database\bin\Debug\net6.0\Database.dll
+D:\ProgrammerProjects\SoftUni\WebAdvanced\25.10.2023 - HouseRentingProject\WebAdvanced-HouseRentingSystem\Database\bin\Debug\net6.0\Database.pdb
+D:\ProgrammerProjects\SoftUni\WebAdvanced\25.10.2023 - HouseRentingProject\WebAdvanced-HouseRentingSystem\Database\bin\Debug\net6.0\Constants.dll
+D:\ProgrammerProjects\SoftUni\WebAdvanced\25.10.2023 - HouseRentingProject\WebAdvanced-HouseRentingSystem\Database\bin\Debug\net6.0\Constants.pdb
+D:\ProgrammerProjects\SoftUni\WebAdvanced\25.10.2023 - HouseRentingProject\WebAdvanced-HouseRentingSystem\Database\obj\Debug\net6.0\Database.csproj.AssemblyReference.cache
+D:\ProgrammerProjects\SoftUni\WebAdvanced\25.10.2023 - HouseRentingProject\WebAdvanced-HouseRentingSystem\Database\obj\Debug\net6.0\Database.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProgrammerProjects\SoftUni\WebAdvanced\25.10.2023 - HouseRentingProject\WebAdvanced-HouseRentingSystem\Database\obj\Debug\net6.0\Database.AssemblyInfoInputs.cache
+D:\ProgrammerProjects\SoftUni\WebAdvanced\25.10.2023 - HouseRentingProject\WebAdvanced-HouseRentingSystem\Database\obj\Debug\net6.0\Database.AssemblyInfo.cs
+D:\ProgrammerProjects\SoftUni\WebAdvanced\25.10.2023 - HouseRentingProject\WebAdvanced-HouseRentingSystem\Database\obj\Debug\net6.0\Database.csproj.CoreCompileInputs.cache
+D:\ProgrammerProjects\SoftUni\WebAdvanced\25.10.2023 - HouseRentingProject\WebAdvanced-HouseRentingSystem\Database\obj\Debug\net6.0\Database.csproj.CopyComplete
+D:\ProgrammerProjects\SoftUni\WebAdvanced\25.10.2023 - HouseRentingProject\WebAdvanced-HouseRentingSystem\Database\obj\Debug\net6.0\Database.dll
+D:\ProgrammerProjects\SoftUni\WebAdvanced\25.10.2023 - HouseRentingProject\WebAdvanced-HouseRentingSystem\Database\obj\Debug\net6.0\refint\Database.dll
+D:\ProgrammerProjects\SoftUni\WebAdvanced\25.10.2023 - HouseRentingProject\WebAdvanced-HouseRentingSystem\Database\obj\Debug\net6.0\Database.pdb
+D:\ProgrammerProjects\SoftUni\WebAdvanced\25.10.2023 - HouseRentingProject\WebAdvanced-HouseRentingSystem\Database\obj\Debug\net6.0\ref\Database.dll
