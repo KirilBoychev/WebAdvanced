@@ -51,7 +51,24 @@ namespace HouseRentingSystem.Controllers
         [Authorize]
         public async Task<IActionResult> Add(HouseFormModel model)
         {
-            return RedirectToAction(nameof(Details), new { id = "1"});
+            if (await _agents.ExistById(User.Id()) == false)
+            {
+                return RedirectToAction(nameof(AgentController.Become), "Agent");
+            }
+
+            if (await _houses.CategoryExist(model.CategoryId) == false)
+            {
+                this.ModelState.AddModelError(nameof(model.CategoryId), "Category does not exist!");
+            }
+
+            if (!ModelState.IsValid)
+            {
+                model.Categories = await _houses.AllCategories();
+
+                return View(model);
+            }
+
+            var agentId = await _agents
         }
 
         [HttpGet]

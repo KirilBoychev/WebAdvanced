@@ -26,7 +26,7 @@ namespace HouseRentingSystem.Models.Houses
         [Display(Name = "Price Per Month")]
         public decimal PricePerMonth { get; set; }
 
-        [Display(Name = "Catgory")]
+        [Display(Name = "Category")]
         public int CategoryId { get; set; }
         public IEnumerable<HouseCategoryServiceModel> Categories { get; set; } = new HashSet<HouseCategoryServiceModel>();
     }

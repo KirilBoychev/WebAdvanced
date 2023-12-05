@@ -24,9 +24,35 @@ namespace HouseRentingSystem.Services.House
             .ToListAsync();
         }
 
+        public async Task<bool> CategoryExist(int categoryId)
+        {
+            return await _data
+                .Houses
+                .AnyAsync(h => h.CategoryId == categoryId);
+        }
+
+        public async Task<Guid> Create(string title, string address, string description, string imageUrl, decimal price, int categoryId, Guid agentId)
+        {
+            var house = new Database.Data.House()
+            {
+                Title = title,
+                Address = address,
+                Description = description,
+                ImageUrl = imageUrl,
+                PricePerMonth = price,
+                CategoryId = categoryId,
+                AgentId = agentId
+            };
+
+            await _data.Houses.AddAsync(house);
+            await _data.SaveChangesAsync();
+
+            return house.Id;
+        }
+
         public async Task<IEnumerable<HouseIndexServiceModel>> LastThreeHouses()
         {
-            return _data
+            return  await _data
                 .Houses
                 .OrderByDescending(x => x.Id)
                 .Select(c => new HouseIndexServiceModel
@@ -35,7 +61,8 @@ namespace HouseRentingSystem.Services.House
                     Title = c.Title,
                     ImageUrl = c.ImageUrl
                 })
-                .Take(3);
+                .Take(3)
+                .ToListAsync();
         }
     }
 }
