@@ -68,7 +68,15 @@ namespace HouseRentingSystem.Controllers
                 return View(model);
             }
 
-            var agentId = await _agents
+            var agentId = await _agents.GetAgentId(User.Id());
+            byte[] bytes = new byte[16];
+            BitConverter.GetBytes(agentId).CopyTo(bytes, 0);
+            Guid g = new Guid(bytes);
+
+            var newHouseId = await _houses.Create(model.Title, model.Address, model.Description, model.ImageUrl,
+                model.PricePerMonth, model.CategoryId, g);
+
+            return RedirectToAction(nameof(Details),  new { id = newHouseId });
         }
 
         [HttpGet]

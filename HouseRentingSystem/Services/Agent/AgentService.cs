@@ -31,11 +31,9 @@ namespace HouseRentingSystem.Services.Agent
                         .AnyAsync(a => a.UserId == userId);
         }
 
-        public async Task<Guid> GetAgentId(Guid userId)
+        public async Task<int> GetAgentId(Guid userId)
         {
-            var guid = new Guid();
-            guid = _data.Agents.Select(a => a.User.Id == userId);
-            return 
+            return _data.Agents.FirstOrDefaultAsync(a => a.UserId == userId).Id;
         }
 
         public async Task<bool> UserHasRent(Guid userId)

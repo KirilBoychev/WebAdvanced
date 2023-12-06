@@ -22,7 +22,7 @@ namespace HouseRentingSystem.Models.Houses
         [Display(Name = "Image URL")]
         public string ImageUrl { get; set; } = null!;
 
-        [Range((double)PricePerMonthMin, (double)PricePerMonthMin, ErrorMessage = "Price must be a positive number and less than {2} leva")]
+        [Range((double)PricePerMonthMin, (double)PricePerMonthMax, ErrorMessage = "Price must be a positive number and less than {2} leva")]
         [Display(Name = "Price Per Month")]
         public decimal PricePerMonth { get; set; }
 
