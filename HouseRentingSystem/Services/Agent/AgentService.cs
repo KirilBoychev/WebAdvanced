@@ -31,9 +31,14 @@ namespace HouseRentingSystem.Services.Agent
                         .AnyAsync(a => a.UserId == userId);
         }
 
-        public async Task<int> GetAgentId(Guid userId)
+        public async Task<Guid> GetAgentId(Guid userId)
         {
-            return _data.Agents.FirstOrDefaultAsync(a => a.UserId == userId).Id;
+            int agentId = _data.Agents.FirstOrDefaultAsync(a => a.UserId == userId).Id;
+            byte[] bytes = new byte[16];
+            BitConverter.GetBytes(agentId).CopyTo(bytes, 0);
+            Guid g = new Guid(bytes);
+
+            return g;
         }
 
         public async Task<bool> UserHasRent(Guid userId)

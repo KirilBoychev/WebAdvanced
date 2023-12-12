@@ -16,19 +16,20 @@ namespace HouseRentingSystem.Services.House
 
         public async Task<IEnumerable<HouseCategoryServiceModel>> AllCategories()
         {
-            return await _data.Categories.OrderBy(c => c.Name).Select(c => new HouseCategoryServiceModel
-            {
-                Id = c.Id,
-                Name = c.Name
-            })
-            .ToListAsync();
+            return await _data.Categories
+                .Select(c => new HouseCategoryServiceModel
+                {
+                    Id = c.Id,
+                    Name = c.Name
+                })
+                .ToListAsync();
         }
 
         public async Task<bool> CategoryExist(int categoryId)
         {
             return await _data
-                .Houses
-                .AnyAsync(h => h.CategoryId == categoryId);
+                .Categories
+                .AnyAsync(c => c.Id == categoryId);
         }
 
         public async Task<Guid> Create(string title, string address, string description, string imageUrl, decimal price, int categoryId, Guid agentId)
@@ -52,7 +53,7 @@ namespace HouseRentingSystem.Services.House
 
         public async Task<IEnumerable<HouseIndexServiceModel>> LastThreeHouses()
         {
-            return  await _data
+            return await _data
                 .Houses
                 .OrderByDescending(x => x.Id)
                 .Select(c => new HouseIndexServiceModel

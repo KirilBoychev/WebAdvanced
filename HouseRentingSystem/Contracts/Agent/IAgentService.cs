@@ -10,6 +10,6 @@
 
         Task Create(Guid userId, string phoneNumber);
 
-        Task<int> GetAgentId(Guid userId);
+        Task<Guid> GetAgentId(Guid userId);
     }
 }
