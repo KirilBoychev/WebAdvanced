@@ -2,6 +2,7 @@
 using HouseRentingSystem.Contracts.House;
 using HouseRentingSystem.Infrastructure;
 using HouseRentingSystem.Models.Houses;
+using HouseRentingSystem.Services.House;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -18,9 +19,11 @@ namespace HouseRentingSystem.Controllers
         }
 
         [AllowAnonymous]
-        public async Task<IActionResult> All()
+        public async Task<IActionResult> All([FromQuery]AllHousesQueryModel query)
         {
-            return View(new AllHousesQueryModel());
+            var queryResult = _houses.All();
+
+            return View(query);
         }
 
         [Authorize]
