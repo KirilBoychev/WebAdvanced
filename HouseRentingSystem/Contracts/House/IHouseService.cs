@@ -1,6 +1,5 @@
 ﻿using HouseRentingSystem.Infrastructure;
 using HouseRentingSystem.Models.Houses;
-using HouseRentingSystem.Services.House;
 using HouseRentingSystem.Services.House.Models;
 using System.Collections.Generic;
 
