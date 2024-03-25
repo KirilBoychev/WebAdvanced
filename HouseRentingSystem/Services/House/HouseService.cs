@@ -1,4 +1,5 @@
 ﻿using Database;
+using Database.Data;
 using HouseRentingSystem.Contracts.House;
 using HouseRentingSystem.Infrastructure;
 using HouseRentingSystem.Models.Houses;
@@ -81,6 +82,44 @@ namespace HouseRentingSystem.Services.House
                             .Select(c => c.Name)
                             .Distinct()
                             .ToListAsync();
+        }
+
+        public async Task<IEnumerable<HouseServiceModel>> AllHousesByAgentId(Guid agentId)
+        {
+            var houses =  await _data
+                            .Houses
+                            .Where(h => h.AgentId == agentId)
+                            .Distinct()
+                            .ToListAsync();
+
+            return ProjectToModel(houses);
+        }
+
+        private IEnumerable<HouseServiceModel> ProjectToModel(List<Database.Data.House> houses)
+        {
+            IEnumerable<HouseServiceModel> housesNew = houses
+                                                            .Select(h => new HouseServiceModel
+                                                            {
+                                                                Id = h.Id,
+                                                                Title = h.Title,
+                                                                Address = h.Address,
+                                                                ImageUrl = h.ImageUrl,
+                                                                PricePerMonth = h.PricePerMonth,
+                                                                IsRented = h.RenterId != null
+                                                            })
+                                                            .ToList();
+            return housesNew;
+        }
+
+        public async Task<IEnumerable<HouseServiceModel>> AllHousesByUserId(Guid userId)
+        {
+            var houses = await _data
+                                    .Houses
+                                    .Where(h => h.RenterId == userId)
+                                    .Distinct()
+                                    .ToListAsync();
+
+            return ProjectToModel(houses);
         }
 
         public async Task<bool> CategoryExist(int categoryId)

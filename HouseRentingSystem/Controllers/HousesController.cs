@@ -3,6 +3,7 @@ using HouseRentingSystem.Contracts.House;
 using HouseRentingSystem.Infrastructure;
 using HouseRentingSystem.Models.Houses;
 using HouseRentingSystem.Services.House;
+using HouseRentingSystem.Services.House.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -31,8 +32,9 @@ namespace HouseRentingSystem.Controllers
             query.TotalHousesCount = queryResult.TotalHousesCount;
             query.Houses = queryResult.Houses;
 
-            var houseCategories = _houses.AllCategoriesNames();
-            query.Categories = (IEnumerable<string>)houseCategories;
+            Task<IEnumerable<string>> houseCategories = _houses.AllCategoriesNames();
+            IEnumerable<string> houseCategories1 = await houseCategories;
+            query.Categories = (IEnumerable<string>)houseCategories1;
 
             return View(query);
         }
@@ -40,7 +42,24 @@ namespace HouseRentingSystem.Controllers
         [Authorize]
         public async Task<IActionResult> Mine()
         {
-            return View(new AllHousesQueryModel());
+            IEnumerable<HouseServiceModel> myHouses = null;
+
+            var userId = User.Id();
+
+            if (await _agents.ExistById(userId))
+            {
+                Task<Guid> currentAgentId = _agents.GetAgentId(userId);
+
+                Guid currentAgentId1 = await currentAgentId;
+
+                myHouses = await _houses.AllHousesByAgentId(currentAgentId1);
+            }
+            else
+            {
+                myHouses = await _houses.AllHousesByUserId(userId);
+            }
+
+            return View(myHouses);
         }
 
         public async Task<IActionResult> Details(int id)
