@@ -45,9 +45,9 @@ namespace Database.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("25c8cd31-2f61-4151-8276-bb396f366bc5"),
+                            Id = new Guid("33e2f6df-0e84-4a50-b39d-f03d7ca2d9eb"),
                             PhoneNumber = "+359888888888",
-                            UserId = new Guid("0026ec65-81b9-478f-aed2-2b6846647ca1")
+                            UserId = new Guid("0c2331d5-d380-46b4-972d-41cce6a715ec")
                         });
                 });
 
@@ -119,30 +119,31 @@ namespace Database.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("0026ec65-81b9-478f-aed2-2b6846647ca1"),
+                            Id = new Guid("0c2331d5-d380-46b4-972d-41cce6a715ec"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "9f6dd9a9-a118-4504-8c27-e1231ed5d83c",
+                            ConcurrencyStamp = "39fe4fb4-75bb-428b-9c4d-e606f7a562d8",
                             Email = "agent@mail.com",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
                             NormalizedEmail = "agent@mail.com",
                             NormalizedUserName = "agent@mail.com",
-                            PasswordHash = "AQAAAAEAACcQAAAAENqSPwXHLdrvgUDP6C8mV7jzDYS8mIQalAqV6MxTVRRmpcA2y3dNciBtQBIdLjAEqw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAENu6Fl4vsjJ8LiDYwEUHGsD8g4vceUoDvug0bCPMXOCzS3u2qMCPH80jFAxdmcgo3g==",
                             PhoneNumberConfirmed = false,
+                            SecurityStamp = "00000000-0000-0000-0000-000000000000",
                             TwoFactorEnabled = false,
                             UserName = "agent@mail.com"
                         },
                         new
                         {
-                            Id = new Guid("fb6c4e79-9bcb-40c5-87a1-e143487d88ff"),
+                            Id = new Guid("8cb1c7b2-c9bf-48e5-b3b1-10d63ff482fe"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "3030627f-2e28-49f1-b64a-209962d2f188",
+                            ConcurrencyStamp = "2077fab4-9b5f-4488-b70b-868c42905020",
                             Email = "guest@mail.com",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
                             NormalizedEmail = "guest@mail.com",
                             NormalizedUserName = "guest@mail.com",
-                            PasswordHash = "AQAAAAEAACcQAAAAEPIxLwvLMM4cCLu6f0SaclSkGR8ezHsQhcYMigjhL4jf8QPS00bSR3MamBJ5UBmQtg==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEPwOOuknnuiRI6SktBbZE4zzWqlqNbYYQYMISxJh0C+GHHu63o22Z0nvnVyjp123QA==",
                             PhoneNumberConfirmed = false,
                             TwoFactorEnabled = false,
                             UserName = "guest@mail.com"
@@ -234,21 +235,21 @@ namespace Database.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("1695218e-5f77-422a-8ab5-2a664d00f652"),
+                            Id = new Guid("7a3a4c1e-699c-4b06-a043-6612d1cfd63a"),
                             Address = "North London, UK (near the border)",
-                            AgentId = new Guid("25c8cd31-2f61-4151-8276-bb396f366bc5"),
+                            AgentId = new Guid("33e2f6df-0e84-4a50-b39d-f03d7ca2d9eb"),
                             CategoryId = 3,
                             Description = "A big house for your whole family. Don't miss to buy a house with three bedrooms.",
                             ImageUrl = "https://www.luxury-architecture.net/wp-content/uploads/2017/12/1513217889-7597-FAIRWAYS-010.jpg",
                             PricePerMonth = 2100.00m,
-                            RenterId = new Guid("fb6c4e79-9bcb-40c5-87a1-e143487d88ff"),
+                            RenterId = new Guid("8cb1c7b2-c9bf-48e5-b3b1-10d63ff482fe"),
                             Title = "Big House Marina"
                         },
                         new
                         {
-                            Id = new Guid("7fc3d0bb-bcb4-44ab-99a6-b01e46af1ee4"),
+                            Id = new Guid("55d2efa4-30b3-4f56-b4b5-aaf3220dc658"),
                             Address = "Near the Sea Garden in Burgas, Bulgaria",
-                            AgentId = new Guid("25c8cd31-2f61-4151-8276-bb396f366bc5"),
+                            AgentId = new Guid("33e2f6df-0e84-4a50-b39d-f03d7ca2d9eb"),
                             CategoryId = 2,
                             Description = "It has the best comfort you will ever ask for. With two bedrooms, it is great for your family.",
                             ImageUrl = "https://cf.bstatic.com/xdata/images/hotel/max1024x768/179489660.jpg?k=2029f6d9589b49c95dcc9503a265e292c2cdfcb5277487a0050397c3f8dd545a&o=&hp=1",
@@ -257,9 +258,9 @@ namespace Database.Migrations
                         },
                         new
                         {
-                            Id = new Guid("8d5a3ac2-94c0-4077-b68f-ce9f9df2d5a3"),
+                            Id = new Guid("3755d7e2-3907-4735-a0b9-110e5f9cb42c"),
                             Address = "Boyana Neighbourhood, Sofia, Bulgaria",
-                            AgentId = new Guid("25c8cd31-2f61-4151-8276-bb396f366bc5"),
+                            AgentId = new Guid("33e2f6df-0e84-4a50-b39d-f03d7ca2d9eb"),
                             CategoryId = 2,
                             Description = "This luxurious house is everything you will need. It is just excellent.",
                             ImageUrl = "https://i.pinimg.com/originals/a6/f5/85/a6f5850a77633c56e4e4ac4f867e3c00.jpg",

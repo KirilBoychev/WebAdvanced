@@ -74,7 +74,8 @@ namespace Database
                 UserName = "agent@mail.com",
                 NormalizedUserName = "agent@mail.com",
                 Email = "agent@mail.com",
-                NormalizedEmail = "agent@mail.com"
+                NormalizedEmail = "agent@mail.com",
+                SecurityStamp = new Guid().ToString()
             };
 
             AgentUser.PasswordHash = hasher.HashPassword(AgentUser, "Kari08");
