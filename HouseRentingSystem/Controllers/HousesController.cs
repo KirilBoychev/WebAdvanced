@@ -48,11 +48,9 @@ namespace HouseRentingSystem.Controllers
 
             if (await _agents.ExistById(userId))
             {
-                Task<Guid> currentAgentId = _agents.GetAgentId(userId);
+                Guid currentAgentId = await _agents.GetAgentId(userId);
 
-                Guid currentAgentId1 = await currentAgentId;
-
-                myHouses = await _houses.AllHousesByAgentId(currentAgentId1);
+                myHouses = await _houses.AllHousesByAgentId(currentAgentId);
             }
             else
             {

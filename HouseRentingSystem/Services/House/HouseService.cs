@@ -89,7 +89,6 @@ namespace HouseRentingSystem.Services.House
             var houses =  await _data
                             .Houses
                             .Where(h => h.AgentId == agentId)
-                            .Distinct()
                             .ToListAsync();
 
             return ProjectToModel(houses);
@@ -116,7 +115,6 @@ namespace HouseRentingSystem.Services.House
             var houses = await _data
                                     .Houses
                                     .Where(h => h.RenterId == userId)
-                                    .Distinct()
                                     .ToListAsync();
 
             return ProjectToModel(houses);
